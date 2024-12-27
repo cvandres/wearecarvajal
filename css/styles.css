@@ -439,7 +439,7 @@
     }
 }
 
-@media (max-width: 1390px) and (min-width: 768px){
+@media (max-width: 1390px) and (min-width: 770px){
     .nav-link{
         font-family: "Montserrat";
         font-size: 0.7rem ;
@@ -455,17 +455,98 @@
 }
 
 
-@media (max-width:  700px){
-    .nav-link{
-        font-family: "Montserrat";
-        font-size: 0.6rem ;
-        font-weight: 500;
-        color: #737476;
+@media only screen and (max-width: 768px) {
+
+    /* Adjusting for small screens */
+    .coop-name {
+        padding: 5% 10%;
     }
-    .coop-name{
-        padding: 10% 0 10% 0;
+
+    .top-section {
+        padding: 5%;
     }
-    .big-heading{
+
+    .button-container {
+        margin-top: 10%;
+    }
+
+    .big-heading {
         font-size: 2.5rem;
+        padding: 0 10px;
+    }
+
+    .service-items {
+        padding-left: 10%;
+        flex-direction: column;
+    }
+
+    .service-item1, .service-item2, .service-item3 {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        padding: 0 10px;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .wrap {
+        margin: 10px;
+    }
+
+    .bus-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* For very small screens like phones in portrait mode */
+@media only screen and (max-width: 480px) {
+
+    .coop-name {
+        padding: 5% 5%;
+    }
+
+    .big-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .centered-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .service-items {
+        padding-left: 5%;
+    }
+
+    .service-item1, .service-item2, .service-item3 {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .wrap {
+        margin: 0;
+    }
+
+    .bus-img {
+        width: 100%;
+        height: auto;
     }
 }
