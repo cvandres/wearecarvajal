@@ -1,5 +1,5 @@
 #title{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/van.PNG") ;
+    background-image: url("../images/van.PNG") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,7 +215,7 @@
 }
 
 .service-item1{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/local.jpeg") ;
+    background-image: url("../images/local.jpeg") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -226,7 +226,7 @@
     text-align: left;
 }
 .service-item2{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/long.jpeg") ;
+    background-image: url("../images/long.jpeg") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -237,7 +237,7 @@
     text-align: left;
 }
 .service-item3{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/delivery.jpeg") ;
+    background-image: url("../images/delivery.jpeg") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -291,7 +291,7 @@
 }
 
 .cities-item1{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/baltimore.PNG") ;
+    background-image: url("../images/baltimore.PNG") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -302,7 +302,7 @@
     text-align: left;
 }
 .cities-item2{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/dc.PNG") ;
+    background-image: url("../images/dc.PNG") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
@@ -313,7 +313,7 @@
     text-align: left;
 }
 .cities-item3{
-    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/us.PNG") ;
+    background-image: url("../images/us.PNG") ;
     background-size: cover;
     padding: 1.5rem;
     border: 1px solid #ddd;
