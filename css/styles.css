@@ -1,0 +1,471 @@
+#title{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/van.PNG") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+.top-section {
+    padding: 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+.logo{
+    float: left;
+    height: 40%;
+    width: 40%;
+}
+.nav-logo{
+    width: 50%;
+    margin: 0 auto 0 5% ;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem ;
+    font-weight: 500;
+    color: #737476;
+}
+
+.big-heading{ 
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 100%;
+}
+
+.coop-name{
+    padding: 10% 25% 15% 25%;
+    text-align: center;
+}
+.button-container {
+    position: relative;
+    left: 50%;
+    margin-top:  10%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+.centered-button {
+    padding: 12px 24px;
+    font-family: 'Jost', serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #122C50;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.centered-button:hover {
+    background-color: darkblue; /* Darkens the blue on hover */
+  }
+
+.cut-section {
+    background-color: #fff; 
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
+    padding: 40px;
+    text-align: center;
+}
+
+.middle-section{
+    background-color: #fff; 
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%); 
+    padding: 10% 10% 5% 10%;
+    text-align: center;
+}
+
+.features-box{
+    padding: 7% 15% 0 25% 0;
+    text-align: center;
+}
+
+.icon-title{
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.icon-text{
+    color: #8f8f8f;
+    text-align: justify;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.bus-img{
+    width: 1400;
+    height: 500;
+}
+.img-fluid{
+    max-width: 500%;
+}
+.bg-image{
+    opacity: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Jost', serif;
+    font-weight: 200;
+}
+#contacto{
+    padding-bottom: 5%;
+}
+.contact{
+    padding: 0% 5% 5% 5%;
+    color: black;
+    font-family: 'Lexend Zetta', serif;
+    font-weight: 300;
+}
+.numbers{
+    float: right;
+    padding: 0 20% 10% 0;
+    font-family: 'Jota', serif;
+    font-weight: 200;
+}
+
+.team{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+    font-family: 'Lexend Zetta', serif;
+    font-weight: 300;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    padding: 7%;
+    color: #8f8f8f
+}
+.footer-icons{
+    padding: 2%;
+}
+.fa-brands{
+    margin: 20px 10px;
+}
+#testimonials{
+    text-align: center;
+    padding: 0 25%;
+}
+.testimonial-image{
+    max-width: 100%;
+    height: auto;
+}
+#story{
+    text-align: center;
+}
+.story{
+    padding: 7% 10%;
+}
+.story-text{
+    color: #8f8f8f;
+    text-align: justify;
+}
+/* Added code */
+.wrap{
+    margin: 100px;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+}
+
+.services {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20%;
+    background: #040C0C;
+    text-align: center;
+}
+
+.services h2 {
+    padding-left: 20%;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.service-items {
+    padding-left: 20%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item1{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/local.jpeg") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.service-item2{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/long.jpeg") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.service-item3{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/delivery.jpeg") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item h3 {
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.service-item p {
+    color: #fff;
+    font-family: 'Jost', serif;
+    font-weight: 100;
+}
+
+.cities {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20%;
+    background: #040C0C;
+    text-align: center;
+}
+
+.cities h2 {
+    padding-left: 20%;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.cities-items {
+    padding-left: 20%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cities-item1{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/baltimore.PNG") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.cities-item2{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/dc.PNG") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.cities-item3{
+    background-image: url("/Users/andrescarvajal/Desktop/Coop website/images/us.PNG") ;
+    background-size: cover;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+.cities-item:hover {
+    transform: scale(1.05);
+}
+
+.cities-item h3 {
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.cities-item p {
+    color: #fff;
+    font-family: 'Jost', serif;
+    font-weight: 100;
+}
+
+.slider {
+    position: relative;
+    width: 40%;
+    max-width: 80%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.phone-icons {
+    margin: 20px 0;
+}
+
+.icon {
+    text-align: center;
+}
+
+.phone-link {
+    text-decoration: none;
+    color: #333; /* Default color for icon and text */
+    font-size: 1.5rem; /* Adjust the icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.phone-link:hover {
+    color: #004080; /* Blue color on hover */
+}
+
+.phone-link i {
+    display: block;
+    margin-bottom: 5px;
+}
+.call-button{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.message{
+    padding-top: 15%;
+}
+/* Slides */
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+/* Individual Images */
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.about-us-title {
+    position: relative;
+    width: 60%;
+    display: inline-block;
+    padding-left: 5%;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    font-weight: bold;
+    gap: 20px
+  }
+.about-us-title p {
+    color: black;
+    font-family: 'Jost', serif;
+    text-transform: none;
+    text-align: justify;
+    font-weight: 150;
+  }
+.blue-line {
+    border: 3px solid #00008B;
+    margin: 10px 0;
+}
+
+
+@media (max-width: 3000px) and (min-width: 1400px){
+    .nav-link{
+        font-family: "Montserrat";
+        font-size: 0.9rem ;
+        font-weight: 500;
+        color: #737476;
+    }
+    .coop-name{
+        padding: 10% 0 10% 0;
+    }
+    .big-heading{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1390px) and (min-width: 768px){
+    .nav-link{
+        font-family: "Montserrat";
+        font-size: 0.7rem ;
+        font-weight: 500;
+        color: #737476;
+    }
+    .coop-name{
+        padding: 10% 0 10% 0;
+    }
+    .big-heading{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width:  700px){
+    .nav-link{
+        font-family: "Montserrat";
+        font-size: 0.6rem ;
+        font-weight: 500;
+        color: #737476;
+    }
+    .coop-name{
+        padding: 10% 0 10% 0;
+    }
+    .big-heading{
+        font-size: 2.5rem;
+    }
+}
