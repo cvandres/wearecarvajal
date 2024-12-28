@@ -424,6 +424,95 @@
 }
 
 
+/* Contact Page*/
+#title-contact-pg{
+    background-image: url("../images/logo.jpeg") ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+.contact-pg-title{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    padding: 3rem 20rem 0 20rem;
+    text-align: center;
+    font-family: 'Lexend Zetta', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    gap: 20px
+}
+
+.contact-pg-title p {
+    color: black;
+    font-family: 'Jost', serif;
+    text-transform: none;
+    text-align: center;
+    font-weight: 150;
+}
+
+.phone-icons-contact-pg{
+    position: relative;
+    left: -35%;
+    margin: 20px 0;
+    padding-bottom: 2rem;
+}
+
+.phone-link-contact-pg {
+    text-decoration: none;
+    color: black; /* Default color for icon and text */
+    font-size: 1.5rem; /* Adjust the icon size */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.phone-link-contact-pg:hover {
+    color: #004080; /* Blue color on hover */
+}
+
+.phone-link-contact-pg i {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.email-contact-pg{
+    position: relative;
+    left: 40%;
+    padding-top: 0;
+}
+
+.centered-button-contact-pg {
+    padding: 12px 24px;
+    font-family: 'Jost', serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #122C50;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.centered-button-contact-pg:hover {
+    background-color: darkblue; /* Darkens the blue on hover */
+  }
+.btn{
+    background-color: #122C50;
+}
+.form-control{
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.bottom-message{
+    padding-bottom: 10rem;
+}
+
 @media (max-width: 3000px) and (min-width: 1400px){
     .nav-link{
         font-family: "Montserrat";
